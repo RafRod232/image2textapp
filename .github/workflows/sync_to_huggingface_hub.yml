@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Rafarod513:$HF_TOKEN@huggingface.co/spaces/Rafarod513/Rafarod513/image-to-text-app main
+        run: git push --force https://Rafarod513:$HF_TOKEN@huggingface.co/spaces/Rafarod513/image-to-text-app main
